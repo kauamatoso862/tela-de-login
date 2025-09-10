@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Mobile</title>
+</head>
+<body>
+    <!-- Header com foto, nome e botões de chamada -->
+    <div>
+        <table width="100%">
+            <tr>
+                <td>
+                    <img src="https://www.ogol.com.br/img/jogadores/new/46/65/1254665_nuno_moreira_20250226150235.png" 
+                         alt="Foto da Maria" 
+                         width="50" 
+                         height="50" 
+                         style="border-radius: 50%;">
+                </td>
+                <td>
+                    <h3>Nuno Moreira</h3>
+                    <p>Online</p>
+                </td>
+                <td align="right">
+                    <button>📞</button>
+                    <button>📹</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+
+    <!-- Área de mensagens -->
+    <div>
+        <!-- Mensagem da outra pessoa -->
+        <div style="margin: 10px 0;">
+            <div style="background-color: #f0f0f0; padding: 10px; border-radius: 10px; max-width: 70%; display: inline-block;">
+                <p>Oi! Como você está?</p>
+                <small>14:30</small>
+            </div>
+        </div>
+
+        <!-- Minha mensagem -->
+        <div style="margin: 10px 0; text-align: right;">
+            <div style="background-color: #007bff; color: white; padding: 10px; border-radius: 10px; max-width: 70%; display: inline-block;">
+                <p>Estou bem, obrigado! E você?</p>
+                <small>14:32</small>
+            </div>
+        </div>
+
+        <!-- Mensagem da outra pessoa -->
+        <div style="margin: 10px 0;">
+            <div style="background-color: #f0f0f0; padding: 10px; border-radius: 10px; max-width: 70%; display: inline-block;">
+                <p>Também estou bem! Que bom saber 😊</p>
+                <small>14:33</small>
+            </div>
+        </div>
+
+        <!-- Minha mensagem -->
+        <div style="margin: 10px 0; text-align: right;">
+            <div style="background-color: #007bff; color: white; padding: 10px; border-radius: 10px; max-width: 70%; display: inline-block;">
+                <p>Vamos nos encontrar hoje?</p>
+                <small>14:35</small>
+            </div>
+        </div>
+
+        <!-- Mensagem da outra pessoa -->
+        <div style="margin: 10px 0;">
+            <div style="background-color: #f0f0f0; padding: 10px; border-radius: 10px; max-width: 70%; display: inline-block;">
+                <p>Claro! Que horas funcionaria melhor para você?</p>
+                <small>14:36</small>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Área de digitação -->
+    <div style="position: fixed; bottom: 0; left: 0; right: 0; background-color: white; padding: 10px;">
+        <table width="100%">
+            <tr>
+                <td width="70%">
+                    <input type="text" 
+                           placeholder="Digite aqui..." 
+                           style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 20px;">
+                </td>
+                <td>
+                    <button>🎤</button>
+                    <button>📷</button>
+                    <button>🖼️</button>
+                </td>
+                <td>
+                    <button style="background-color: #007bff; color: white; border: none; padding: 10px; border-radius: 50%;">
+                        ➤
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Espaço para evitar que o conteúdo fique atrás da barra de digitação -->
+    <div style="height: 80px;"></div>
+
+</body>
+</html>
